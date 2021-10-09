@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header div.descuento{
+    background-color: #1CD1B0;
+    padding: 10px 0px 10px 10px;
+}
+
+header h1{
+    background-color: #00669F;
+    padding: 28px 0px 26px 28px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section article{
+    width: 300px; /*Ancho de lo que mide el articulo */
+    margin: 100px 0px 100px; /*Margin Arriba y Abajo de 100px y laterales 0*/
+}
+
+article{
+    position: relative;
+    background-color: #F3F3F3;
+    border-radius: 14px 14px 0px 0px;
+    box-shadow: 0px 3px 0px 0px rgba(186, 184, 177, 0.5) ;
+    height: 527px;
+}
+
+article div.back-batman{
+    border-radius: 14px 14px 0px 0px;
+    height: 194px; /*Altura del background*/
+    padding: 10px;
+    background-image: url(../img/background-batman.png);
+    background-size: cover;
+    
+}
+
+article div.back-batman i{
+    font-size: 24px;
+    color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article img.foto-batman{
+    border-radius: 50%;
+    position: absolute; /*El article tiene que ser relativo y aca absoluto*/
+    border-radius: 50%;
+    width: 120px;
+    left: 89px;
+    top: 132px;
+} 
+
+
+article div.back-harley{
+    border-radius: 14px 14px 0px 0px;
+    height: 194px;
+    padding: 10px;
+    background-image: url(../img/background-harley.png);
+    background-size: cover;
+}
+
+article div.back-harley i{
+    font-size: 24px;
+    color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article img.foto-harley{
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    left: 89px;
+    top: 132px;
+}
+
+article h3{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 85px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+article p{
+    font-size: 16px;
+    margin-bottom: 37px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article a{
+    position: absolute;
+    background-color: #00669F;
+    padding: 15px 35.78px 15.52px 37px;
+    text-decoration: none;
+    color: white;
+    left: 85px;
+    top: 460px
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    padding: 16px 0px 16px 16px;
+}
