@@ -93,8 +93,59 @@ article img.foto-harley{
     top: 132px;
 }
 
+article div.back-superman{
+    border-radius: 14px 14px 0px 0px;
+    height: 194px; /*Altura del background*/
+    padding: 10px;
+    background-image: url(../img/back-superman.png);
+    background-size: cover;
+    
+}
+
+article div.back-superman i{
+    font-size: 24px;
+    color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article img.foto-superman{
+    border-radius: 50%;
+    position: absolute; /*El article tiene que ser relativo y aca absoluto*/
+    border-radius: 50%;
+    width: 120px;
+    left: 89px;
+    top: 132px;
+} 
+
+
+article div.back-mujer{
+    border-radius: 14px 14px 0px 0px;
+    height: 194px; /*Altura del background*/
+    padding: 10px;
+    background-image: url(../img/back-mujer.png);
+    background-size: cover;
+    
+}
+
+article div.back-mujer i{
+    font-size: 24px;
+    color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article img.foto-mujerMaravilla{
+    border-radius: 50%;
+    position: absolute; /*El article tiene que ser relativo y aca absoluto*/
+    border-radius: 50%;
+    width: 120px;
+    left: 89px;
+    top: 132px;
+} 
+
 article h3{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: lighter;
     margin-top: 85px;
     text-align: center;
@@ -122,4 +173,25 @@ footer{
     background-color: #00669F;
     color: white;
     padding: 16px 0px 16px 16px;
+}
+
+
+@media (max-width: 768px){
+    article h3{
+        font-size: 64px;
+    }
+
+    article p{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px){
+    article h3{
+        font-size: 64px;
+    }
+
+    article p{
+        font-size: 36px;
+    }
 }

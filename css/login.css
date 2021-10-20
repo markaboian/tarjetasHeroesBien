@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header div.descuento{
+    background-color: #1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 2px 0px 3px 20px;
+}
+
+header h2{
+    background-color: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    padding: 27px 0px 18px 129px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 230px;
+    padding-bottom: 294px;
+}
+
+form h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    color: #333333;
+    position: relative;
+    
+    padding-bottom: 55px;
+    right: 216px;
+}
+
+input[type="email"]{
+    width: 620px;
+    height: 60px;
+    position: relative;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Karla' sans-serif;
+    padding: 16px 0px 17px 26.93px
+}
+
+input[type="password"]{
+    width: 620px;
+    height: 60px;
+    position: relative;
+    /* left: 410px; */
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Karla' sans-serif;
+    padding: 16px 0px 17px 26.93px;
+}
+
+form div.email{
+    padding-bottom: 20px;
+}
+
+input[type="submit"]{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    width: 614.25px;
+    height: 53.79px;
+    border: #1CD1B0;
+    position: relative;
+}
+
+form div.boton{
+    padding-top: 59px;
+}
+
+main div.pregunta{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 21.48px;
+    text-align: center;
+    position: relative;
+    /* left: 418px; */
+    padding-top: 20.21px;
+}
+
+main div.pregunta a{
+    text-decoration: none;
+    /* padding-bottom: 294px; */
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    padding: 21px 0px 21px 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
